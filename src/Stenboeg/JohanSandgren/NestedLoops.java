@@ -6,9 +6,9 @@ public class NestedLoops {
         for (j = 1; j <= 10; j++) {
             for (i = 1; i <= 10; i++) {
                 resultat = i * j;
-                if (resultat % 10 == 0) {
-                    System.out.print("*");
-                    System.out.print(resultat + " ");
+                if (resultat % 5 == 0) {
+                    System.out.print(" *");
+                    System.out.print(resultat + "  ");
                 }
             }
             System.out.println();
